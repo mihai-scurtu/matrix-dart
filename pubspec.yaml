@@ -1,0 +1,4 @@
+name: matrix
+description: A pub package
+dev_dependencies:
+  unittest: any
