@@ -56,6 +56,15 @@ void main() {
     expect(matrix.get(1, 1), equals(4));
   });
 
+  test('Test building from array', () {
+    Matrix<int> matrix = new Matrix<int>.fromArray([[1], [3, 4]]);
+
+    expect(matrix.get(0, 0), equals(1));
+    expect(matrix.get(0, 1), isNull);
+    expect(matrix.get(1, 0), equals(3));
+    expect(matrix.get(1, 1), equals(4));
+  });
+
 //  test('Out cannot allocate out of bounds', () {
 //    Matrix<String> matrix = new Matrix<String>(3, 4);
 //
