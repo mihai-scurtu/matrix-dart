@@ -1,5 +1,5 @@
 name: matrix
-version: 0.1.0
+version: 0.1.1
 author: Mihai Scurtu <mscurtu90@gmail.com>
 description: Matrix (2d array) implementation
 homepage: https://github.com/mihai-scurtu/matrix-dart

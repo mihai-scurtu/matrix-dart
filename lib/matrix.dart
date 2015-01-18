@@ -61,6 +61,8 @@ class Matrix<T> {
     }
   }
 
+  List<List<T>> get toArray => this._data;
+
   T get(int row, int column) {
     try {
       this._throwRowOutOfBoundsError(row);
