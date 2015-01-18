@@ -1,4 +1,7 @@
 name: matrix
-description: A pub package
+version: 0.1.0
+author: Mihai Scurtu <mscurtu90@gmail.com>
+description: Matrix (2d array) implementation
+homepage: https://github.com/mihai-scurtu/matrix-dart
 dev_dependencies:
   unittest: any
